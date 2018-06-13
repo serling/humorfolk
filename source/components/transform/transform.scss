@@ -2,13 +2,9 @@
   transform-origin: top left;
   display: inline-block;
 
-  &--is-rotated {
-  }
-
-  &--is-scaled {
-  }
-
   &--is-translated {
+    height: 100%;
+    width: 100%;
     @media screen and (max-width: $break-at-sm) {
       transform: translate(0, 0) !important;
     }

@@ -11,6 +11,7 @@
         padding-bottom: 0;
         justify-content: space-between;
         align-items: center;
+        display: flex;
 
         .row__inner-child {
           &:nth-child(2) {
@@ -32,8 +33,8 @@
 
   &__logo {
     .transform {
+      position: absolute;
       @media screen and (min-width: $break-at-sm) {
-        position: absolute;
       }
     }
   }
