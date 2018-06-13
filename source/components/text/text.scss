@@ -1,0 +1,30 @@
+.text {
+  @include text-font;
+  font-size: 1.2rem;
+  margin: 0;
+  display: block;
+
+  &__content {
+    display: inline;
+  }
+
+  &__source {
+    text-align: right;
+    margin-top: 1rem;
+  }
+
+  &--style-quote {
+    .text__content {
+      font-style: italic;
+      font-size: 1.8rem;
+      line-height: 1.5;
+    }
+  }
+
+  &--style-handwritten {
+    @include handwritten-font;
+    color: $tertiary-color;
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+}

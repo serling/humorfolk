@@ -1,0 +1,14 @@
+.button {
+  min-width: 4rem;
+  @include text-font;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+
+  &--style-default {
+    @include primary-button;
+  }
+
+  &--style-text {
+  }
+}

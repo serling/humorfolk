@@ -1,0 +1,41 @@
+.link {
+  @include text-font;
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.2rem;
+
+  &__icon {
+    vertical-align: middle;
+    margin-left: 0.5em;
+  }
+
+  &--style-button {
+    @include primary-button;
+
+    .link__icon {
+      vertical-align: top;
+    }
+  }
+
+  &--style-handwritten {
+    @include handwritten-font;
+    color: $tertiary-color;
+    font-size: 1.4rem;
+    line-height: 1;
+
+    .link__text {
+      text-decoration: underline;
+    }
+
+    .link__icon {
+      margin-left: 0.5em;
+    }
+  }
+
+  &--style-underlined {
+    .link__text {
+      border-bottom: 1px solid black;
+      font-style: italic;
+    }
+  }
+}
