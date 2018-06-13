@@ -6,7 +6,7 @@ const App = ({ children, css, js }) => (
     <head>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>Skipping Dinner - Comedy Improv Theater</title>
+      <title>Humorfolk - Comedy Improv Theater</title>
       <meta
         name="description"
         content="Welcome to our tiny, humor-filled corner of the web. We offer a wide range of comedic show formats, whatever the venue or event may be."
