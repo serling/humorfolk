@@ -9,8 +9,13 @@
   }
 
   &--has-background {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    @media screen and (min-width: $break-at-sm) {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
   }
 
   &--background-default {

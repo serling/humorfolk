@@ -36,9 +36,9 @@ const Home = () => (
     <Row>
       <Row.Content column={Row.columns.two}>
         <div>
-          <Transform translate={{ x: '-24rem', y: 'calc(6rem + 4px)' }}>
+          {/* <Transform translate={{ x: '-24rem', y: 'calc(6rem + 4px)' }}>
             <Background imageSrc={'../assets/peeps.jpg'} />
-          </Transform>
+          </Transform> */}
         </div>
         <div>
           <Heading>

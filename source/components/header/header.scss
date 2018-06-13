@@ -34,8 +34,6 @@
   &__logo {
     .transform {
       position: absolute;
-      @media screen and (min-width: $break-at-sm) {
-      }
     }
   }
 
