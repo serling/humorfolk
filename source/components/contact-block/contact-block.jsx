@@ -12,7 +12,7 @@ const ContactBlock = () => (
       <div>(+47) 123 xxx 23</div>
     </List>
     <List isInline={true}>
-      <Link href="mailto:skippingdinnerimprov@gmail.com">
+      <Link href="mailto:email">
         <Icon size={Icon.sizes.small} title="fab fa-twitter" />
       </Link>
       <Link href="https://www.facebook.com/SkippingDinner">
