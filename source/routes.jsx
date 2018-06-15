@@ -1,11 +1,13 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import Home from './pages/home';
+import pages from './static/pages/pages';
 
 const Routes = () => (
   <Switch>
-    <Route exact path="/" component={Home} />
+    {pages.map(page => (
+      <Route key={page.url} path={page.url} component={page.component} />
+    ))}
   </Switch>
 );
 
