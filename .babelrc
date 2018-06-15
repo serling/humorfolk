@@ -1,5 +1,6 @@
 {
   "plugins": [
+    "babel-plugin-lodash",
     "babel-plugin-transform-class-properties",
     "babel-plugin-transform-object-rest-spread"
   ],

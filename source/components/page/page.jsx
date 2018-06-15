@@ -1,14 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Layout from '../layout';
 import Header from '../header';
 import Footer from '../footer';
 
-const Page = ({ children, layout }) => (
+const Page = ({ children }) => (
   <div className="page">
     <Header active={true} />
-    <Layout theme={layout}>{children}</Layout>
+    {children}
     <Footer />
   </div>
 );
@@ -21,10 +20,7 @@ Page.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.node,
     PropTypes.arrayOf(PropTypes.node)
-  ]).isRequired,
-  layout: PropTypes.string
+  ]).isRequired
 };
-
-Page.layout = Layout.themes;
 
 export default Page;
